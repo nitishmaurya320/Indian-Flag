@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <div class="saffron"></div>
+            <div class="white">
+                <img class="ashoka"src="amazon/ashoka.png">
+
+            </div>
+            <div class="green"></div>
+
+
+        </body>
+        <style>
+            body{
+                margin: 0;
+            }
+            .saffron{
+                width: 1280px;
+                background-color: #ff671f;
+                position: relative;
+                
+                height: 198px;
+                animation: first 5s linear;
+                animation-timing-function: ease-out;
+            }
+
+            .white{
+                
+                width: 1280px;
+                height: 197px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .green{ 
+                height: 198px;
+                background-color: green;
+                width: 1280px;
+                position: relative;
+                animation: second 5s linear;
+                animation-timing-function: ease-out;
+                
+            }
+            .ashoka{
+                
+                width: 200px;
+                height: 200px;
+                
+                
+                position: relative;
+                animation: chakra 30s;
+            }
+            @keyframes first{
+              from{right: -1280px;}
+              to{right: 0px;}
+            }
+            @keyframes second{
+              from{left: -1280px;}
+              to{left: 0px;}
+            
+            }
+            @keyframes chakra{
+                0%{
+                    transform: rotate(0deg);opacity: 0;
+                }
+                10%{transform: rotate(0deg);opacity: 0;
+               
+            }
+            50%{opacity: 100;
+               
+            }
+            100%{transform: rotate(720deg);opacity: 100;
+               
+            }
+        }
+            @keyframes fadeinout{
+                0% {opacity: 0;}
+                50%{opacity: 0;}
+                100%{opacity: 100;}
+            }
+            
+
+        </style>
+        
+    
+        
+    
+        
+        
+    </head>
+    
+</html>
